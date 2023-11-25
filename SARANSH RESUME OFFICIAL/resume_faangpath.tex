@@ -1,0 +1,233 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Saransh Gupta} % Your name
+% You can merge both of these into a single line, if you do not have a website.
+\address{+91 9530277421 \\ Rajasthan, India} 
+\address{\href{mailto:saransh.official.iitkgp@gmail.com}{Email} \\ \href{https://www.linkedin.com/in/saranshguptaml/}{Linkedin} \\ \href{https://github.com/saranshqm}{GitHub} \\ \href{https://scholar.google.com/citations?hl=en&user=ym9bnMcAAAAJ}{Google Scholar} \\ \href{https://saranshqm.github.io/}{Website}}\\  %
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE
+%----------------------------------------------------------------------------------------
+
+% \begin{rSection}{OBJECTIVE}
+
+% {Skilled graduate with competence in Data Science, Deep Learning, and Natural Language Processing. Looking for a career as a Data Scientist to further enhance my expertise in machine learning applications.}
+
+% \end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Indian Institute of Technology Kharagpur \hfill} {2017 - 2022}
+{\bf \\ Integrated Master of Technology} {in Engineering Product Design \hfill {{\bf Grade:} {8.09 / 10}}}
+
+{\\ \bf Master's Dissertation:} 
+{\\• A Spatial Optimization Approach for Identifying the Optimal Hospital Locations \hfill Jan 2022 - Apr 2022
+\\• Addressing Bottlenecks in Healthcare
+Accessibility \hfill Jul 2021 - Nov 2021}
+
+{\\ \bf Activities and societies:} 
+{\\ • Safety Analytics & Virtual Reality (SAVR) Lab \hfill Jan 2019 - Jul 2019}
+{\\ • Autonomous Underwater Vehicle Research Group IIT Kharagpur \hfill May 2018 - Dec 2018}
+{\\ • TeamKART: Official FSAE of IIT Kharagpur \hfill Sep 2017 - May 2018}
+% {\bf Bachelor of Computer Science}, Stanford University \hfill {2014 - 2017}
+%Minor in Linguistics \smallskip \\
+%Member of Eta Kappa Nu \\
+%Member of Upsilon Pi Epsilon \\
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% TECHINICAL STRENGTHS	
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{PUBLICATIONS} 
+\begin{itemize}
+    \item S. Gupta et al. "Integrative Network Modeling Highlights the Crucial Roles of Rho-GDI Signaling Pathway in the
+Progression of Non-Small Cell Lung Cancer," in {\bf IEEE - JBHI, 2022}, doi: \href {https://pubmed.ncbi.nlm.nih.gov/35820010/} {10.1109/JBHI.2022.3190038}
+
+\item Entity-aware Question-Answer Extraction for Shopping Guidance, {\bf Amazon Machine Learning Conference}
+\end{itemize}
+\end{rSection}
+
+
+\begin{rSection}{SKILLS}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Technical Skills & Python, PyTorch, Transformers, BERT, Transfer Learning, scikit-learn, TensorFlow
+\\
+Soft Skills & Critical thinking, Problem-Solving, Team Player\\
+% XYZ & A, B, C, D\\
+\end{tabular}
+\end{rSection}
+
+\begin{rSection}{WORK EXPERIENCE}
+
+\textbf{American Express} \hfill Aug 2022 - Present\\
+Engineer-III \hfill \textit{Gurugram, Haryana, India}
+\textbf{\\ Project 1:} Failure cause identification of applications on generated Incidents for their automated resolution
+
+ \begin{itemize}
+    \itemsep -3pt {} 
+     \item Implemented a \textbf{Question-Answer} based strategy on top of raw dataset to identify failure cause of applications
+     \item Achieved \textbf{F1 Score of 0.84} by finetuning a pre-trained \textbf{BERT based Question-Answering model}
+ \end{itemize}
+
+ \textbf{Project 2:} Automation of various repetitive tasks to save the manual efforts 
+
+ \begin{itemize}
+    \itemsep -3pt {}
+     \item Improved the \textbf{data security} by developing an automatic PII data identification and encryption tool  
+     \item Reduced \textbf{12 business hours per month} by automating the application availability report generation process
+     \item Automated resolutions for certain repetitive Incidents saving upto \textbf{2 business hours} every day
+ \end{itemize}
+ 
+% \textbf{Role Name} \hfill Jan 2017 - Jan 2019\\
+% Company Name \hfill \textit{San Francisco, CA}
+%  \begin{itemize}
+%     \itemsep -3pt {} 
+%      \item Achieved X\% growth for XYZ using A, B, and C skills.
+%      \item Led XYZ which led to X\% of improvement in ABC
+%     \item Developed XYZ that did A, B, and C using X, Y, and Z. 
+%  \end{itemize}
+
+\end{rSection} 
+
+\begin{rSection}{INTERNSHIPS}
+
+\textbf{Amazon Development Centre India} \hfill Jan 2022 - June 2022\\
+Applied Scientist - Intern \hfill \textit{Bengaluru, Karnataka, India}
+{\\ {\bf Project:} Generate Pre-curated Question Bank (PCQB) by Question and Answer extraction from articles}
+ \begin{itemize}
+    \itemsep -3pt {} 
+     \item Developed a {\bf Transformers-based} two-step model for Question Generation followed by the answer extraction
+     \item Scrapped Texts, People Also Ask (PAA) questions and answers using queries related to the E-Commerce domain
+    \item Achieved a {\bf Perplexity score of 82.3} on Question Generation by fine-tuning a {\bf T5 model} on the PAA dataset
+    \item Attained {\bf F-1 score of 0.79} on the answer extraction task by fine-tuning the T5-large model on the PAA dataset
+    \item Deployed the two-step model pipeline on the {\bf streamlit-based} demo web application that accepts user input
+ \end{itemize}
+
+\textbf{ZS Associates} \hfill Jan 2021 - June 2021\\
+Data Science Associate - Intern \hfill \textit{Bengaluru, Karnataka, India}
+{\\ {\bf Project 1:} Extract biomedical text dataset, identify entities, and classify if there exists a relation between entities}
+ \begin{itemize}
+    \itemsep -3pt {} 
+     \item Created a pipeline to extract texts from PubMed database, identifying entities using \textbf{Selenium} and \textbf{PubTator}
+     \item Implemented Binary Classification rules, devised \textbf{four} labeling functions using bio-verbs, co-occurrence of entities
+    \item Generated a training dataset utilizing the four labeling functions in \textbf{Snorkel} by applying the \textbf{Weak Supervision}
+    \item Achieved \textbf{F1 score of 0.88} on the test dataset in relation-classification by fine-tuning \textbf{RoBERTa base} model
+ \end{itemize}
+
+ {{\bf Project 2:}: Identify the type of relationship between two entities if it exists from the results of the Project-1}
+ \begin{itemize}
+    \itemsep -3pt {} 
+     \item Created a new set of \textbf{three} labeling functions for relation-type identification by using the results of the project-1
+     \item Attained \textbf{F1 score of 0.83} on the test dataset using XGBoost Model followed by feature engineering
+
+ \end{itemize}
+
+ 
+% \textbf{Role Name} \hfill Jan 2017 - Jan 2019\\
+% Company Name \hfill \textit{San Francisco, CA}
+%  \begin{itemize}
+%     \itemsep -3pt {} 
+%      \item Achieved X\% growth for XYZ using A, B, and C skills.
+%      \item Led XYZ which led to X\% of improvement in ABC
+%     \item Developed XYZ that did A, B, and C using X, Y, and Z. 
+%  \end{itemize}
+
+\end{rSection} 
+
+
+\begin{rSection}{RESEARCH EXPERIENCE}
+
+
+\textbf{Emory University} \hfill Jul 2022 - Present\\
+Volunteer Researcher (remote) \hfill \textit{Atlanta, GA, USA}
+\\ \textbf{Project:} Predict the type of Venous thromboembolism (VTE), from the medical diagnosis and clinical Impressions
+ \begin{itemize}
+    \itemsep -3pt {} 
+     \item Reduced manual adjudication of dataset by \textbf{20 times} using pegasus paraphrasing model on sample dataset  
+     \item Achieved \textbf{F1 score of 0.97} in predicting the type of VTE on test dataset by fine-tuning a \textbf{Bio-BERT} model 
+    \item Improved F1 score on test dataset by \textbf{20 percent} by deploying paraphrasing and Bio-BERT finetuning pipeline
+ \end{itemize}
+
+\textbf{Osaka University} \hfill Jan 2020 - Dec 2020\\
+Research Assistant (remote) \hfill \textit{Ibaraki, Osaka, Japan}
+\\ \textbf{Project:} Predict Non-Small Cell Lung Cancer (NSCLC) using Machine Learning, identify potential drug targets
+ \begin{itemize}
+    \itemsep -3pt {} 
+     \item Extracted \textbf{412} essential genes out of \textbf{10,077} by applying Boruta Feature selection on gene expression dataset
+     \item Obtained \textbf{F-1 score of 1.0} on validation, \textbf{0.98} on test dataset by using the \textbf{XGBoost} model to predict NSCLC
+     \item Predicted drug targets for the NSCLC by simulating a \textbf{Bayesian Network Model} on Rho-GDI signaling path 
+ \end{itemize}
+ 
+% \textbf{Role Name} \hfill Jan 2017 - Jan 2019\\
+% Company Name \hfill \textit{San Francisco, CA}
+%  \begin{itemize}
+%     \itemsep -3pt {} 
+%      \item Achieved X\% growth for XYZ using A, B, and C skills.
+%      \item Led XYZ which led to X\% of improvement in ABC
+%     \item Developed XYZ that did A, B, and C using X, Y, and Z. 
+%  \end{itemize}
+
+\end{rSection} 
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+% \begin{rSection}{PROJECTS}
+% \vspace{-1.25em}
+% \item \textbf{Hiring Search Tool.} {Built a tool to search for Hiring Managers and Recruiters by using ReactJS, NodeJS, Firebase and boolean queries. Over 25000 people have used it so far, with 5000+ queries being saved and shared, and search results even better than LinkedIn! \href{https://hiring-search.careerflow.ai/}{(Try it here)}}
+% \item \textbf{Short Project Title.} {Build a project that does something and had quantified success using A, B, and C. This project's description spans two lines and also won an award.}
+% \item \textbf{Short Project Title.} {Build a project that does something and had quantified success using A, B, and C. This project's description spans two lines and also won an award.}
+% \end{rSection} 
+
+%----------------------------------------------------------------------------------------
+\begin{rSection}{ACHIEVEMENTS} 
+\begin{itemize}
+    \item Conferred \textbf{Blue-Award} at the \textbf{American Express} for impactful contribution to the organization in \textbf{Jan 2023}  
+    \item Featured as one of the \textbf{Top 30} Undergraduate Achievers of IIT Kharagpur in the UG Achievers Directory 2020
+    \item Awarded scholarship of \textbf{2200€} by The A*Midex Foundation of \textbf{Aix-Marseille University, France}, Feb 2020
+    \item Selected among \textbf{Top 5 percent} out of all for the summer fellowship at Institute of Science Technology Austria
+    \item Featured in the \textbf{ISE Newsletter Autumn-2020} under Department Spotlight of ISE fights COVID-19, 2020
+\end{itemize}
+
+\end{rSection}
+
+\begin{rSection}{COMPEtitions and conferences} 
+\begin{itemize}
+    \item 	Annual Amazon Machine Learning Conference (AMLC) – Bengaluru, Karnataka \hfill Aug 2022
+    \item	23rd World Business Dialogue, Creation Lab at Evonik - Cologne, Germany \hfill Jun 2022
+    \item Amazon ML Summer School 2021: Offered PPI \hfill Jul 2021
+    % \item Jumpstart 2021 by Publicis Sapient: Offered PPI \hfill Jun 2021
+    \item International Conference on Human Interaction & Emerging Technologies: Future Applications \hfill Aug 2020
+    \item Young Data Scientists annual meetup at Kaggle - days, Dubai World Trade Centre \hfill Mar 2020
+    \item Winner at Databuzz 2020 conducted by DoMS, IIT Madras \hfill Jan 2020
+    % \item Gold in Intra IIT Data Analytics Competition 2019 \hfill Feb 2019
+\end{itemize}
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Leadership} 
+\begin{itemize}
+    \item Mentored \textbf{5 Undergraduate students}, actively involved in facilitating their one-one sessions and group doubt-clearing sessions to ensure their steep learning curve and right career trajectory
+\end{itemize}
+
+
+\end{rSection}
+
+
+\end{document}
